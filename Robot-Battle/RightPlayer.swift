@@ -7,3 +7,11 @@
 //
 
 import Foundation
+
+class RightPlayer: Player {
+    
+    //override var playerName: String {
+        //return "Sander"
+   // }
+    
+}

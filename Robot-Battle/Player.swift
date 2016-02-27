@@ -7,3 +7,25 @@
 //
 
 import Foundation
+
+class Player: Character {
+    
+    private var _playerName = "Name"
+    
+    var playerName: String {
+        get {
+            return _playerName
+        }
+    }
+    
+    private var _inventory = [String]()
+    
+    var inventory: [String] {
+        return _inventory
+    }
+    
+    func AddItemToInventory(item: String) {
+        _inventory.append(item)
+    }
+    
+}

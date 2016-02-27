@@ -12,6 +12,13 @@
 		AAC05AD01C81AD67007E050A /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AAC05ACE1C81AD67007E050A /* Main.storyboard */; };
 		AAC05AD21C81AD67007E050A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = AAC05AD11C81AD67007E050A /* Assets.xcassets */; };
 		AAC05AD51C81AD67007E050A /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AAC05AD31C81AD67007E050A /* LaunchScreen.storyboard */; };
+		AAC05ADD1C81C14B007E050A /* Character.swift in Sources */ = {isa = PBXBuildFile; fileRef = AAC05ADC1C81C14B007E050A /* Character.swift */; };
+		AAC05AE11C81C2D8007E050A /* BB-8.swift in Sources */ = {isa = PBXBuildFile; fileRef = AAC05AE01C81C2D8007E050A /* BB-8.swift */; };
+		AAC05AE31C81C2E8007E050A /* DarthVader.swift in Sources */ = {isa = PBXBuildFile; fileRef = AAC05AE21C81C2E8007E050A /* DarthVader.swift */; };
+		AAC05AF11C8201A4007E050A /* blade.wav in Resources */ = {isa = PBXBuildFile; fileRef = AAC05AF01C8201A4007E050A /* blade.wav */; };
+		AAC05AF31C82028E007E050A /* laser.wav in Resources */ = {isa = PBXBuildFile; fileRef = AAC05AF21C82028E007E050A /* laser.wav */; };
+		AAC05AF51C820316007E050A /* yatta.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = AAC05AF41C820316007E050A /* yatta.mp3 */; };
+		AAC05AF71C820979007E050A /* gameover.wav in Resources */ = {isa = PBXBuildFile; fileRef = AAC05AF61C820979007E050A /* gameover.wav */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,6 +29,13 @@
 		AAC05AD11C81AD67007E050A /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		AAC05AD41C81AD67007E050A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		AAC05AD61C81AD67007E050A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		AAC05ADC1C81C14B007E050A /* Character.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Character.swift; sourceTree = "<group>"; };
+		AAC05AE01C81C2D8007E050A /* BB-8.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "BB-8.swift"; sourceTree = "<group>"; };
+		AAC05AE21C81C2E8007E050A /* DarthVader.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DarthVader.swift; sourceTree = "<group>"; };
+		AAC05AF01C8201A4007E050A /* blade.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = blade.wav; sourceTree = "<group>"; };
+		AAC05AF21C82028E007E050A /* laser.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = laser.wav; sourceTree = "<group>"; };
+		AAC05AF41C820316007E050A /* yatta.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = yatta.mp3; sourceTree = "<group>"; };
+		AAC05AF61C820979007E050A /* gameover.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = gameover.wav; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -54,12 +68,19 @@
 		AAC05AC91C81AD67007E050A /* Robot-Battle */ = {
 			isa = PBXGroup;
 			children = (
+				AAC05AF61C820979007E050A /* gameover.wav */,
+				AAC05AF41C820316007E050A /* yatta.mp3 */,
+				AAC05AF21C82028E007E050A /* laser.wav */,
+				AAC05AF01C8201A4007E050A /* blade.wav */,
 				AAC05ACA1C81AD67007E050A /* AppDelegate.swift */,
 				AAC05ACC1C81AD67007E050A /* ViewController.swift */,
 				AAC05ACE1C81AD67007E050A /* Main.storyboard */,
 				AAC05AD11C81AD67007E050A /* Assets.xcassets */,
 				AAC05AD31C81AD67007E050A /* LaunchScreen.storyboard */,
 				AAC05AD61C81AD67007E050A /* Info.plist */,
+				AAC05ADC1C81C14B007E050A /* Character.swift */,
+				AAC05AE21C81C2E8007E050A /* DarthVader.swift */,
+				AAC05AE01C81C2D8007E050A /* BB-8.swift */,
 			);
 			path = "Robot-Battle";
 			sourceTree = "<group>";
@@ -122,7 +143,11 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				AAC05AF51C820316007E050A /* yatta.mp3 in Resources */,
+				AAC05AF71C820979007E050A /* gameover.wav in Resources */,
+				AAC05AF31C82028E007E050A /* laser.wav in Resources */,
 				AAC05AD51C81AD67007E050A /* LaunchScreen.storyboard in Resources */,
+				AAC05AF11C8201A4007E050A /* blade.wav in Resources */,
 				AAC05AD21C81AD67007E050A /* Assets.xcassets in Resources */,
 				AAC05AD01C81AD67007E050A /* Main.storyboard in Resources */,
 			);
@@ -135,8 +160,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				AAC05ADD1C81C14B007E050A /* Character.swift in Sources */,
+				AAC05AE31C81C2E8007E050A /* DarthVader.swift in Sources */,
 				AAC05ACD1C81AD67007E050A /* ViewController.swift in Sources */,
 				AAC05ACB1C81AD67007E050A /* AppDelegate.swift in Sources */,
+				AAC05AE11C81C2D8007E050A /* BB-8.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -284,6 +312,7 @@
 				AAC05ADB1C81AD67007E050A /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
